@@ -1,0 +1,135 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px 20px;
+    background-color: #333;
+    color: white;
+}
+
+header a {
+    color: white;
+    text-decoration: none;
+    margin: 0 10px;
+}
+
+header a:hover {
+    text-decoration: underline;
+}
+
+.title {
+    text-align: center;
+    margin: 20px 0;
+}
+
+.paragraph {
+    text-align: justify;
+    margin: 20px;
+}
+
+.columns {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    margin: 20px;
+}
+
+.column {
+    flex: 1;
+    margin: 10px;
+    padding: 10px;
+    border: 1px solid #ddd;
+}
+
+@media (max-width: 768px) {
+    .column {
+        flex-basis: 100%;
+    }
+}
+
+.links a {
+    color: blue;
+    text-decoration: none;
+}
+
+.links a:hover {
+    color: red;
+}
+
+table {
+    width: 80%;
+    margin: 0 auto;
+    border-collapse: collapse;
+}
+
+table th, table td {
+    border: 1px solid black;
+    padding: 10px;
+    text-align: center;
+}
+
+table th {
+    background-color: black;
+    color: white;
+}
+
+.images img {
+    width: 200px;
+    height: 150px;
+    margin: 5px;
+    border: 2px solid #ddd;
+}
+
+.images img:hover {
+    border-color: blue;
+}
+
+form {
+    text-align: center;
+    margin: 20px;
+}
+
+form input, form select {
+    background-color: blue;
+    color: white;
+    padding: 10px;
+    margin: 5px;
+    border: none;
+    border-radius: 5px;
+}
+
+form button {
+    background-color: green;
+    color: white;
+    padding: 10px 20px;
+    margin: 5px;
+    border: none;
+    border-radius: 5px;
+}
+
+.list-box {
+    border: 1px solid black;
+    padding: 10px;
+    margin: 20px auto;
+    width: 50%;
+    font-weight: bold;
+}
+
+.list-box ol {
+    list-style-type: upper-alpha;
+}
+
+.list-box a {
+    color: blue;
+    text-decoration: none;
+}
+
+.list-box a:hover {
+    color: red;
+}
